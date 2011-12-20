@@ -1,0 +1,3 @@
+1. add cache between cpu and memory, but no data really stored in the cache, data will be access directly from memory. 
+2. Pipeline will be employed to figure out the performance of the CPU
+3. Consider the structure of a multi-core CPU
