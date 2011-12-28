@@ -1,3 +1,8 @@
 A emulator for ARM programs. 
 
 Aim to run ARM programs in x86 platform.
+Support:
+ - virtual memory
+ - dynamic memory allocation (heap)
+ - file read and write
+ - keyboard read and screen write
