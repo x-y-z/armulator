@@ -1571,9 +1571,9 @@ MMU * Thumb::get_mmu()
 /**
   * Get a new MMU modular, get stack pointer from MMU, get program's entry pointer from MMU, initialize SWI.
   */
-void Thumb::InitMMU()
+void Thumb::InitMMU(char *file_name)
 {
-    my_mmu = new MMU;
+    my_mmu = new MMU(file_name);
 
     rSP = my_mmu->getStackTop();
     rPC = my_mmu->getEntry();

@@ -94,8 +94,8 @@ src/Thumb.o src/Thumb.o: src/Thumb.cpp src/Thumb.h \
   /usr/include/c++/4.2.1/typeinfo /usr/include/c++/4.2.1/ostream \
   /usr/include/c++/4.2.1/bits/ostream.tcc \
   /usr/include/c++/4.2.1/bits/basic_file.h \
-  /usr/include/c++/4.2.1/bits/fstream.tcc /usr/include/assert.h \
-  src/swi_semihost.h src/error.h src/ARM.h
+  /usr/include/c++/4.2.1/bits/fstream.tcc src/error.h \
+  /usr/include/assert.h src/swi_semihost.h src/ARM.h
 
 src/Thumb.h:
 
@@ -389,10 +389,10 @@ src/elf_file.h:
 
 /usr/include/c++/4.2.1/bits/fstream.tcc:
 
+src/error.h:
+
 /usr/include/assert.h:
 
 src/swi_semihost.h:
-
-src/error.h:
 
 src/ARM.h:

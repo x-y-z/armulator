@@ -119,8 +119,9 @@ public:
     virtual GP_Reg get_reg_by_code(int reg_code);
 
     //about MMU
+    void InitMMU(){};
 	//! Initialize the MMU module
-    void InitMMU();
+    void InitMMU(char *file_name);
 	//! Deintialize the MMU module
     void DeinitMMU();
 

@@ -94,7 +94,8 @@ public:
 
     //about MMU
 	//! Initialize the MMU module.
-    void InitMMU();
+    void InitMMU(){};
+    void InitMMU(char *file_name);
 	//! Deinitialize the MMU module.
     void DeinitMMU();
 

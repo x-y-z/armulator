@@ -96,8 +96,8 @@ src/main.o src/main.o: src/main.cpp /usr/include/c++/4.2.1/cstdlib \
   /usr/include/c++/4.2.1/bits/istream.tcc src/Thumb.h src/CPU.h \
   src/arch.h src/MMU.h src/elf_file.h /usr/include/c++/4.2.1/fstream \
   /usr/include/c++/4.2.1/bits/basic_file.h \
-  /usr/include/c++/4.2.1/bits/fstream.tcc /usr/include/assert.h \
-  src/swi_semihost.h src/error.h src/ARM.h
+  /usr/include/c++/4.2.1/bits/fstream.tcc src/error.h \
+  /usr/include/assert.h src/swi_semihost.h src/ARM.h
 
 /usr/include/c++/4.2.1/cstdlib:
 
@@ -393,10 +393,10 @@ src/elf_file.h:
 
 /usr/include/c++/4.2.1/bits/fstream.tcc:
 
+src/error.h:
+
 /usr/include/assert.h:
 
 src/swi_semihost.h:
-
-src/error.h:
 
 src/ARM.h:

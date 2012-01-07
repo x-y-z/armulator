@@ -95,9 +95,9 @@ src/swi_semihost.o src/swi_semihost.o: src/swi_semihost.cpp \
   /usr/include/c++/4.2.1/typeinfo /usr/include/c++/4.2.1/ostream \
   /usr/include/c++/4.2.1/bits/ostream.tcc \
   /usr/include/c++/4.2.1/bits/basic_file.h \
-  /usr/include/c++/4.2.1/bits/fstream.tcc /usr/include/c++/4.2.1/iostream \
-  src/error.h /usr/include/fcntl.h /usr/include/sys/fcntl.h \
-  /usr/include/errno.h /usr/include/sys/errno.h
+  /usr/include/c++/4.2.1/bits/fstream.tcc src/error.h \
+  /usr/include/c++/4.2.1/iostream /usr/include/fcntl.h \
+  /usr/include/sys/fcntl.h /usr/include/errno.h /usr/include/sys/errno.h
 
 src/swi_semihost.h:
 
@@ -389,9 +389,9 @@ src/elf_file.h:
 
 /usr/include/c++/4.2.1/bits/fstream.tcc:
 
-/usr/include/c++/4.2.1/iostream:
-
 src/error.h:
+
+/usr/include/c++/4.2.1/iostream:
 
 /usr/include/fcntl.h:
 

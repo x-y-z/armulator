@@ -13,6 +13,7 @@
 
 #include "arch.h"
 #include "elf_file.h"
+#include "error.h"
 
 /*! \def SEGTYPE
 	\brief new type for differentiate segments
@@ -79,8 +80,10 @@ class elf_file;//predeclaration
 class MMU
 {
 public:
-	//! A constructor
-    MMU();
+    //! Default constructor
+    MMU(){Error e; e.error_name = "Unimplemented!"; throw e;};
+	//! A constructor which initiate MMU with elf file info
+    MMU(char *file_name);
 	//! A destructor
     ~MMU();
 

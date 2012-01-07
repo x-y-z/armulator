@@ -34,7 +34,7 @@ int main(int argc,char* argv[])
 
     try
     {
-        arm->InitMMU();
+        arm->InitMMU(file_name);
     }
     catch(Error &e)
     {

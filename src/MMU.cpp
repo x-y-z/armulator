@@ -10,7 +10,7 @@ extern char file_name[100];
   * Initialize the memory layout, set up the ranges of code segment, data segment, heap, stack, etc. The information will be retrieved from ELF file.
   * @exception Error For errors which are memory-related, file-related, etc.
   */
- MMU::MMU()
+ MMU::MMU(char *file_name)
 {
     //char file_name[100] = {0};
 

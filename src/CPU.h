@@ -41,6 +41,8 @@ public:
     virtual GP_Reg get_reg_by_code(int reg_code) = 0;
 	//! Initialize the MMU module
     virtual void InitMMU() = 0;
+	//! Initialize the MMU module with elf file
+    virtual void InitMMU(char *file_name) = 0;
 	//! Deinitialize the MMU module
     virtual void DeinitMMU() = 0;
 	//! Copy CPU content from another cpu

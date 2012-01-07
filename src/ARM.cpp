@@ -1439,9 +1439,9 @@ MMU * ARM::get_mmu()
 /**
   * Get a new MMU modular, get stack pointer from MMU, get program's entry pointer from MMU, initialize SWI.
   */
-void ARM::InitMMU()
+void ARM::InitMMU(char *file)
 {
-    my_mmu = new MMU;
+    my_mmu = new MMU(file);
 
     rSP = my_mmu->getStackTop();
     rPC = my_mmu->getEntry();

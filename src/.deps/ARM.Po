@@ -95,7 +95,7 @@ src/ARM.o src/ARM.o: src/ARM.cpp src/ARM.h src/CPU.h src/arch.h \
   /usr/include/c++/4.2.1/typeinfo /usr/include/c++/4.2.1/ostream \
   /usr/include/c++/4.2.1/bits/ostream.tcc \
   /usr/include/c++/4.2.1/bits/basic_file.h \
-  /usr/include/c++/4.2.1/bits/fstream.tcc src/swi_semihost.h src/error.h \
+  /usr/include/c++/4.2.1/bits/fstream.tcc src/error.h src/swi_semihost.h \
   src/Thumb.h /usr/include/assert.h
 
 src/ARM.h:
@@ -390,9 +390,9 @@ src/elf_file.h:
 
 /usr/include/c++/4.2.1/bits/fstream.tcc:
 
-src/swi_semihost.h:
-
 src/error.h:
+
+src/swi_semihost.h:
 
 src/Thumb.h:
 
