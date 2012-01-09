@@ -1,9 +1,12 @@
 A emulator for ARM programs. 
 
-Aim to run ARM programs in x86 platform.
+Aim to run ARM programs(Thumb mode) in x86 platform.
 Support:
  - virtual memory
  - dynamic memory allocation (heap)
  - file read and write
  - keyboard read and screen write
 
+Currently only Thumb mode code is supported, which means 
+you have to use "arm-elf-gcc -mthumb -Bstatic <source> -o <executable>"
+to generate binary files.
