@@ -9,6 +9,7 @@
 #include <cstring>
 #include <cstdlib>
 #include <errno.h>
+#include <unistd.h>
 
 /*! \def O_BINARY
 	\brief Define it when O_BINARY not defined
